@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+:root {
+    --blanc: #fff;
+    --bleuciel: #26c9f1;
+    --orange: #f6760d;
+    --rouge: #f00707;
+    --noire: #000000;
+
+}
+
+/* style pour la barre de navigation */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bleuciel);
+    padding: 10px;
+    
+}
+
+/* style pour le logo */
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 5rem;
+}
+.logo-text{
+    font-size: 1.5rem;
+    color: var(--blanc);
+    font-weight: bold;   
+}
+
+/* style pour les ancres du menu */
+.menu-item{
+        text-decoration: none;
+        font-size: 1rem;
+        color: var(--noire);
+        margin-right: 10px;
+        
+}
+
+/* hero style */
+.hero {
+   display: flex;
+   margin: 30px 100px 30px 100px;
+   align-items: center;
+   gap: 5rem;
+   justify-content: center;
+}
+.hero img{
+        width: 80vh;
+        border-radius: 1rem;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    
+}
+
+.hero p {
+    font-size: 2rem;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.hero a {
+    font-size: 1rem;  
+}
+
+@media (max-width: 768px) {
+     .hero{
+        display: block;
+        margin: 30px 20px 30px 20px
+    }
+    .hero img{
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+    }
+    
+    .hero h1{
+        font-size: 2rem;
+    }
+
+    .hero p{
+        font-size: 1rem;
+    }
+    .hero a{
+        font-size: 0.5;
+    }
+    .menu-item{
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: var(--noire);
+        margin-right: 10px;
+        display: block;
+    }
+    .logo-image {
+    width: 4rem;
+}
+.logo-text{
+    font-size: 1.3rem;
+    color: var(--blanc);
+    font-weight: bold;
+}
+
+.nav {
+     padding: 1px;
+}
+
+}
+   
+
+   

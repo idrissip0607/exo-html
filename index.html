@@ -4,41 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EXO HTML</title>
+    <meta name="description" content="Développeur web passionné, je crée des sites modernes, performants et adaptés à vos besoins : portfolio, services, réalisations et contact. Obtenez un devis gratuit pour votre projet web.">
+    <meta name="keywords" content="développeur web, création site internet, portfolio, services web, réalisations web, site vitrine, site e-commerce, web design, freelance, développement web, devis gratuit, optimisation SEO, responsive, modern web, intégration web, contact développeur">
+    <link rel="shortcut icon" href="images/4rOSDE-LogoMakr.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <!-- navbar -->
-     <nav>
-        <div>
-            <img src="images/4rOSDE-LogoMakr.png" alt="">
-            <h1>Mon porfolio</h1>
-            <ul>
-                <li>
-                    <a href="#">Accueil</a>
-                </li>
-                <li>
-                    <a href="#About">A propos de moi</a>
-                </li>
-                <li>
-                    <a href="#Services">Mes services</a>
-                </li>
-                <li>
-                    <a href="#Gallery">Mes realisations</a>
-                </li>
-                <li>
-                    <a href="#Contact">Contactez-moi</a>
-                </li>
-            </ul>
+     <nav class="nav">
+       <div class="logo"> 
+        <img class="logo-image" src="images/4rOSDE-LogoMakr.png" alt="logo" >
+        <h1 class="logo-text">Mon porfolio</h1>
+    </div>
+
+        <div >
+            
+                    <a class="menu-item" href="#">Accueil</a>
+              
+                    <a class="menu-item" href="#About">A propos de moi</a>
+                
+                    <a class="menu-item" href="#Services">Mes services</a>
+                
+                    <a class="menu-item" href="#Gallery">Mes realisations</a>
+                
+                    <a class="menu-item" href="#Contact">Contactez-moi</a>
+                
         </div>
      </nav>
 
      <!-- section hero -->
 
-     <div>
-        <img src="images/books-2599241_1280.jpg" alt="section hero">
-        <h1>Des sites de qualité modernes </h1>
-        <H2>Grace a mes competence en web dev</H2>
+     <section class="hero">
+        <div>
+            <h1>Des sites de qualité modernes </h1>
+        <p>Grace a mes competence en web dev</p>
         <a href="#About">obtenir un devis gratuit</a>
-     </div>
+        </div>
+        <img src="images/books-2599241_1280.jpg" alt="section hero">
+     </section>
 
      <!-- a propos -->
       <section id="About">
@@ -55,7 +58,7 @@
             <table border="1">
                 <tr>
                     <th>idriss</th>
-                    <th>traore</th>
+                    <th>frederic</th>
                     <th>traore</th>
                 </tr>
                 <tr>
@@ -82,6 +85,30 @@
 
                 </ul>
             </div>
+        </section>
+        <!-- CONTACT -->
+
+        <section id="Contact">
+            <h1>Contactez-moi</h1>
+
+            <div>
+                <h3>Localisation</h3>
+                <p>Marcory aliodan</p>
+                <h3>Adresse mail</h3>
+                <a href="mailto:idrisstrahauray@gmail.com">idrisstrahauray@gmail.com</a>
+                <h3>Numero de telephone</h3>
+                <a href="tel:+2250575217145">+2250575217145</a>
+
+            </div><br>
+
+            <!-- form -->
+             <div>
+                <label for="Nom&prenom"><strong>Nom & Prenom</strong></label><br>
+                <input type="text"><br><br>
+                <label for="adresse mail"><strong>E-mail</strong></label><br>
+                <input type="email">
+             </div>
+
         </section>
     </body>
 </html>
